@@ -20,7 +20,7 @@ spec:
           command: ["/bin/sh", "-c"]
           args:
             - |
-              echo "Served by $(hostname)" >> /usr/local/apache2/htdocs/index.html && \
+              echo "Served  by $(hostname)" >> /usr/local/apache2/htdocs/index.html && \
               httpd-foreground
  
 apiVersion: v1
